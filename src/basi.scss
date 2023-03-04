@@ -1,6 +1,19 @@
 /* basi.css v0.1.0 */
 
+:root {
+    --backgroundcolor: #fafafa;
+    --bordercolor: #f2f2f2;
+    --shadowcolor: #393939;
+    --color: #696969;
+}
+
 body {
     padding: 0;
     margin: 0;
+}
+
+input {
+    padding: 3px;
+    border: 1px solid var(--bordercolor);
+    border-radius: 5px;
 }
