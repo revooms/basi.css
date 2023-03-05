@@ -1,5 +1,8 @@
 /* basi.css v0.1.0 */
 
+$borderradius: 5px;
+$padding: 3px;
+
 :root {
     --width: 960px;
     --backgroundcolor: #fafafa;
@@ -9,6 +12,7 @@
 }
 
 body {
+    background-color: var(--backgroundcolor);
     padding: 0;
     margin: 0;
     width: 100vw;
@@ -22,10 +26,12 @@ main {
 
 input,
 textarea {
-    padding: 3px;
+    background-color: white;
     border: 1px solid var(--bordercolor);
-    border-radius: 5px;
+    border-radius: $borderradius;
+    padding: $padding;
 }
+
 label {
     min-width: 240px;
 }

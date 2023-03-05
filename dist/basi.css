@@ -8,6 +8,7 @@
 }
 
 body {
+  background-color: var(--backgroundcolor);
   padding: 0;
   margin: 0;
   width: 100vw;
@@ -21,9 +22,10 @@ main {
 
 input,
 textarea {
-  padding: 3px;
+  background-color: white;
   border: 1px solid var(--bordercolor);
   border-radius: 5px;
+  padding: 3px;
 }
 
 label {
